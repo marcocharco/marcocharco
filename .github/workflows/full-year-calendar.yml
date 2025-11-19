@@ -1,23 +1,31 @@
 name: Full-year calendar
-
 on:
   schedule:
-    - cron: '0 0 * * *'  # optional, daily update
+    - cron: '0 0 * * *'
   workflow_dispatch:
-
+permissions:
+  contents: write  # Add this - needed to push to the branch
 jobs:
   generate-metrics:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout profile repo
         uses: actions/checkout@v3
-
+      
       - name: Generate full-year calendar metrics
-        uses: marcocharco/marcocharco@latest
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
+      
+      # Add this deployment step
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          target_branch: output
+          build_dir: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
