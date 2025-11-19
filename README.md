@@ -15,6 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![GitHub Contribution Snake](https://github.com/marcocharco/metrics/blob/examples/metrics.plugin.isocalendar.fullyear.svg)
+![Contribution Calendar](https://raw.githubusercontent.com/marcocharco/marcocharco/output/metrics.plugin.isocalendar.fullyear.svg)
 <!--![GitHub Contribution Snake](https://raw.githubusercontent.com/marcocharco/marcocharco/output/github-contribution-grid-snake.svg?palette=github-dark)-->
 
