@@ -1,4 +1,9 @@
-## Hi there 👋
+### Hello! 👋
+
+Current Projects:
+- expense splitter
+- dev/pm @ tsi
+
 
 <!--
 **marcocharco/marcocharco** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,6 +20,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Contribution Calendar](https://raw.githubusercontent.com/marcocharco/marcocharco/main/metrics.plugin.isocalendar.svg)
 <!--![GitHub Contribution Snake](https://raw.githubusercontent.com/marcocharco/marcocharco/output/github-contribution-grid-snake.svg?palette=github-dark)-->
-
+![Contribution Calendar](https://raw.githubusercontent.com/marcocharco/marcocharco/main/metrics.plugin.isocalendar.svg)
