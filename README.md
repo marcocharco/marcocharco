@@ -1,8 +1,8 @@
 ### Hello! 👋
 
-Current Projects:
+Currently:
+- swe @ wealthsimple
 - expense splitter
-- dev/pm @ tsi
 
 
 <!--
