@@ -2,7 +2,7 @@
 
 Currently:
 - swe @ wealthsimple
-- expense splitter
+- working on expense splitter
 
 
 <!--
